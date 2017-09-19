@@ -15,10 +15,11 @@
 
 @script()
 // 同步用法，放心吧，mod.js 支持
+alert(20);
 var index = require('./index');
-index('.btn-duang');
+<!-- index('.btn-duang'); -->
 @endscript
 
-@stop
+@endsection
 
 

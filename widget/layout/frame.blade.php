@@ -16,10 +16,7 @@
     @placeholder('styles')
 </head>
 <body>
-@script()
-// initalize bootstrap
-require(['bootstrap', 'jquery']);
-@endscript
+
 <div id="wrapper">@yield('body')</div>
 @placeholder('framework')
 @placeholder('scripts')

@@ -74,6 +74,7 @@ var require, define;
     }
 
     define = function(id, factory) {
+        alert(777);
         id = id.replace(/\.js$/i, '');
         factoryMap[id] = factory;
 
@@ -92,17 +93,21 @@ var require, define;
         if (id && id.splice) {
             return require.async.apply(this, arguments);
         }
-
+        console.log(modulesMap,id)
         id = require.alias(id);
 
+        console.log(666,id);
         var mod = modulesMap[id];
+        console.log(90909);
         if (mod) {
+            console.log(10101);
             return mod.exports;
         }
 
         //
         // init module
         //
+        console.log(factoryMap);
         var factory = factoryMap[id];
         if (!factory) {
             throw '[ModJS] Cannot find module `' + id + '`';
@@ -124,6 +129,7 @@ var require, define;
     };
 
     require.async = function(names, onload, onerror) {
+        alert(888)
         if (typeof names == 'string') {
             names = [names];
         }

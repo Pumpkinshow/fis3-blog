@@ -1,4 +1,4 @@
-@extends('widget/layout/front.blade.php')
+@extends('/widget/layout/layout.blade.php')
 
 @section('title', '欢迎使用 fis3 + laravel 解决方案')
 @section('content')
@@ -6,7 +6,7 @@
 <div class="container">
   <div class="page-header">
     <h2>
-      栗子
+      这是一个阿克苏加的了房间拉斯科技的了房价艾丝凡劣质
     </h2>
   </div>
 
@@ -14,12 +14,11 @@
 </div>
 
 @script()
-// 同步用法，放心吧，mod.js 支持
-var index = require('page/index');
-index('.btn-duang');
+
+var index = require('../static/main/test');
+<!-- index('.btn-duang'); -->
 @endscript
 
-@stop
+@endsection
 
 
-@section("fis_resource")@parent @require('page/index.blade.php')@stop

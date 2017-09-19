@@ -13,7 +13,7 @@
   </div>
 </div>
 
-@script()
+<!-- @script()
 var init = require('./header');
 init();
-@endscript
+@endscript -->
