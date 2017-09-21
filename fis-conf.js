@@ -55,9 +55,47 @@ fis.match('/map.json', {
   release: '/resources/map/map.json',
 });
 
-// 让所有的 js 都用模块化的方式开发。
+
+fis.match('*.es6', {
+  rExt: '.js',
+  parser: fis.plugin('es6-babel')
+});
+fis.match('*.js', {
+  rExt: '.js',
+  parser: fis.plugin('es6-babel')
+});
+
+
 fis.match('*.js', {
   isMod: true
+});
+
+
+
+
+// vue组件本身配置
+fis.match('**.vue', {
+  isMod: true,
+  rExt: 'js',
+  useSameNameRequire: true,
+  parser: fis.plugin('vue-component', {
+    cssScopeFlag: 'vuec'
+  })
+});
+
+// vue组件中js片段处理。
+fis.match('**.vue:js', {
+  parser: [
+    fis.plugin('babel-6.x', {
+      presets: ['es2015-loose', 'react', 'stage-3']
+    }),
+    fis.plugin('translate-es3ify', null, 'append')
+  ]
+})
+ 
+// vue组件中产出的css处理。
+fis.match('src/(vue/**.css)', {
+  release: 'css/$1'
 });
 
 // static/js 下面放非模块化 js

@@ -74,7 +74,6 @@ var require, define;
     }
 
     define = function(id, factory) {
-        alert(777);
         id = id.replace(/\.js$/i, '');
         factoryMap[id] = factory;
 
@@ -129,7 +128,6 @@ var require, define;
     };
 
     require.async = function(names, onload, onerror) {
-        alert(888)
         if (typeof names == 'string') {
             names = [names];
         }

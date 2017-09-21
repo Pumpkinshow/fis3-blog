@@ -26,5 +26,12 @@
     "fis3-hook-commonjs": "0.1.0",
     "fis-parser-utc": "0.0.2",
     "fis3-preprocessor-extlang": "1.0.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-loose": "^8.0.0",
+    "babel-runtime": "^6.26.0",
+    "fis-parser-babel-6.x": "^6.24.1",
+    "fis3-parser-translate-es3ify": "0.0.3",
+    "fis3-parser-vue-component": "^5.4.0"
   }
 }
