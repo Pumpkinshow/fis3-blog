@@ -1,0 +1,14 @@
+{
+  "name": "type-of",
+  "homepage": "https://github.com/ForbesLindesay/type-of",
+  "version": "2.0.1",
+  "_release": "2.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "2.0.1",
+    "commit": "cf22fbbd8e4c3e76accdb688c41de1cdbcc58a6e"
+  },
+  "_source": "https://github.com/ForbesLindesay/type-of.git",
+  "_target": "*",
+  "_originalSource": "ForbesLindesay/type-of"
+}
