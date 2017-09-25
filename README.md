@@ -1,3 +1,5 @@
+#fis3 npm 包经常安装失败，建议采用cnpm安装
+
 # laravel
 
 基于 laravel  的 fis3 解决方案。
