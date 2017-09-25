@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /node_modules
 /output
 /components
@@ -6,15 +5,6 @@
 .eslintrc.json
 /node_modules
 node_modules
-=======
-/output
-/components
-.eslintrc.json
-/node_modules
-node_modules
-*/node_modules
-node_modules/
->>>>>>> 0e6afcc2746209ed444e937eec5b84ec9c27c327
 *.DS_Store
 .buildpath
 .project
