@@ -1,7 +1,6 @@
 import Vue from '../common/vue';
 import Ajax from '../components/ajax/index';
 
-console.log(Ajax,9090909);
 new Vue({
     delimiters: ['{%', '%}'],
     el: '#app',
@@ -11,7 +10,7 @@ new Vue({
         file:"",
     },
     created:function(){
-        alert(222);
+        
     },
     methods:{
         imgChange(event){
@@ -28,11 +27,9 @@ new Vue({
             reader.onload = function(e) {
                 self.url = e.target.result;
             };
-            console.log(file);
             var form = new FormData();
             form.append('file', file);
             form.append("_token",self.token);
-            console.log(form.get(file));
             var oReq = new XMLHttpRequest();  
             oReq.open( "POST", "/imageupload" , true );  
             oReq.onload = function(oEvent) {  
