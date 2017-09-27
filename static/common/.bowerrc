@@ -1,0 +1,14 @@
+{  
+    "name": "pumpkin blog",
+    "authors": [
+        "练庆楠 <469302000@qq.com>"
+    ],
+    "directory" : "./", 
+    "json"      : "",  
+    "endpoint"  : "",  
+    "searchpath"  : "",  
+    "shorthand_resolver" : "",
+    "storage": {
+    "packages" : "~/.bower/packages" 
+    }
+}  

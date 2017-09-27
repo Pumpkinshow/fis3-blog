@@ -9,7 +9,7 @@
     <title>pumpkin's blog</title>
     <link rel="icon" href="./favicon.ico" mce_href="./favicon.ico" type="image/x-icon">
     @framework('/static/js/mod.js')
-    @require('/static/common/common.css')
+    @require('/static/css/common.css')
     @placeholder('styles')
 </head>
 <body>
