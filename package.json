@@ -28,6 +28,8 @@
     "fis3-preprocessor-extlang": "1.0.8"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-es2015-loose": "^8.0.0",
     "babel-runtime": "^6.26.0",
     "fis-parser-babel-6.x": "^6.24.1",

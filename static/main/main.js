@@ -1,4 +1,4 @@
-import Vue from '../common/vue/vue';
+import Vue from '../common/vue/dist/vue';
 import App from './App.vue';
 alert(555);
 

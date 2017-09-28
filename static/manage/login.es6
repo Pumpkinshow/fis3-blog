@@ -1,4 +1,4 @@
-import Vue from 'static/common/vue';
+import Vue from 'static/common/vue/dist/vue';
 import Ajax from 'static/components/ajax/index';
 
 new Vue({
