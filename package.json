@@ -23,9 +23,10 @@
   },
   "homepage": "https://github.com/fis-scaffold/laravel",
   "dependencies": {
-    "fis3-hook-commonjs": "0.1.0",
     "fis-parser-utc": "0.0.2",
-    "fis3-preprocessor-extlang": "1.0.8"
+    "fis3-hook-commonjs": "0.1.0",
+    "fis3-preprocessor-extlang": "1.0.8",
+    "vue-awesome-swiper": "^2.6.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -34,6 +35,7 @@
     "babel-runtime": "^6.26.0",
     "fis-parser-babel-6.x": "^6.24.1",
     "fis-parser-es6-babel": "^1.0.0",
+    "fis-parser-extlang": "0.0.8",
     "fis3-parser-es6": "^1.0.5",
     "fis3-parser-translate-es3ify": "0.0.3",
     "fis3-parser-vue-component": "^5.4.0"
