@@ -61,10 +61,10 @@ fis.match('*.es6', {
   rExt: '.js',
   parser: fis.plugin('es6-babel')
 });
-fis.match('*.js', {
-  rExt: '.js',
-  parser: fis.plugin('es6-babel')
-});
+// fis.match('*.js', {
+//   rExt: '.js',
+//   parser: fis.plugin('es6-babel')
+// });
 
 
 fis.match('*.js', {
@@ -105,11 +105,9 @@ fis.match('/static/js/*.js', {
 });
 
 // 给组件下面的 js 设置同名依赖
-fis.match('/components/**.js', {
-  useSameNameRequire: true
-})
 
-fis.match('/common/**.js', {
+
+fis.match('/common/**.js,/components/**.js', {
   useSameNameRequire: true
 })
 

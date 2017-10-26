@@ -1,10 +1,13 @@
 <template>
-    <slot></slot>
+    <div class="vue-swiper-item">
+        <slot></slot>
+    </div>
 </template>
 
 <style>
-    .vm-slider-item{
+    .vue-swiper-item{
         overflow: hidden;
+        display: block;
     }
 </style>
 
