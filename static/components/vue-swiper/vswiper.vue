@@ -17,7 +17,7 @@
 
 <script>
     import Vue from 'static/common/vue/dist/vue';
-    import _ from 'static/components/tools/dom';
+    import _ from '../tools/dom';
     export default{
         name:"vswiper",
         components: {

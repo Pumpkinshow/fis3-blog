@@ -13,7 +13,7 @@ html,body{
 	height: 100%;
 	overflow: scroll;
 	position: relative;
-	background:url(/imgs/login_bg1.jpg) no-repeat center center;
+	background:url(./imgs/login_bg1.jpg) no-repeat center center;
 	background-size: cover;
 }
 .bg1,.bg2{

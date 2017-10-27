@@ -1,3 +1,5 @@
+
+
 // 按需编译，只编译用到的资源
 fis.set('project.files', ['*.blade.php', 'map.json']);
 
@@ -17,13 +19,15 @@ fis.hook('commonjs', {
 // 默认认为所有的资源都是静态资源，放在 /public 目录下面
 fis.match('**', {
   release: '/$0',
-  url: '$0'
+  url: '$0',
+  
 });
 
 // static 下面本来就是静态资源，去掉多出来的一层目录。
 fis.match('/static/(**)', {
   release: '/$1',
-  url: '$1'
+  url: '$1',
+  domain:'http://localhost:8080/'
 });
 
 fis.match('*.blade.php', {

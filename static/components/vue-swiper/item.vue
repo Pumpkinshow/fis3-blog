@@ -12,8 +12,8 @@
 </style>
 
 <script>
-    import Event from 'static/components/tools/event';
-    import Dom from 'static/components/tools/dom';
+    import Event from '../tools/event';
+    import Dom from '../tools/dom';
 
     export default {
         components: {

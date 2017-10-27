@@ -22,7 +22,7 @@
 var pageConfig = {
 
 }
-var index = require('../../static/manage/login');
+var index = require('/static/manage/login');
 
 @endscript
 

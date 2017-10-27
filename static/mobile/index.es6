@@ -13,7 +13,7 @@ new Vue({
         Item
     },
     created(){
-
+        // alert(888); 
     },
     computed: {
 
